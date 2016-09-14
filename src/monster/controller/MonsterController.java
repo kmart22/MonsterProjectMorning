@@ -15,5 +15,10 @@ public class MonsterController
 	public void start()
 	{
 		System.out.println("here is my monster: " + firstMonster);
+		System.out.println("my momster has this many eyes: " + firstMonster.getEyeCount());
+		if(firstMonster.getEyeCount() > 3)
+		{
+			System.out.println("thats a lot of eyes!!! - scary");
+		}
 	}
 }
