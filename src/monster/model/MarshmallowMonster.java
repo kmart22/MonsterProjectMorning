@@ -33,7 +33,7 @@ public class MarshmallowMonster
 	
 	public String toString()
 	{
-		String description = "Name is " + this.name;
+		String description = "Name is " + this.name + this.getEyeCount();
 		
 		return description;
 	}
@@ -67,5 +67,38 @@ public class MarshmallowMonster
 	{
 		return noseCount;
 	}
+	
+	
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setEyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
+	
+	public void setAntennaCount(double antennaCount)
+	{
+		this.antennaCount = antennaCount;
+	}
+	
+	public void setHasBellyButton(boolean hasBellyButton)
+	{
+		this.hasBellyButton = hasBellyButton;
+	}
+	
+	public void setArmCount(int armCount)
+	{
+		this.armCount = armCount;
+	}
+	
+	public void setNoseCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
+	
 	
 }
