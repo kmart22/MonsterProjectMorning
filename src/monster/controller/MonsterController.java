@@ -56,7 +56,7 @@ public class MonsterController
 		{
 			System.out.println("thats okay i dont need anymore!");
 		}
-		System.out.println();
+		System.out.println("I have this many eyes: " + firstMonster.getEyeCount());
 				
 	}
 }
