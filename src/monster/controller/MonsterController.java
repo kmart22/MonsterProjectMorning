@@ -17,7 +17,7 @@ public class MonsterController
 	public void start()
 	{
 		System.out.println("here is my monster: " + firstMonster);
-		System.out.println("my momster has this many eyes: " + firstMonster.getEyeCount());
+		System.out.println("my monster has this many eyes: " + firstMonster.getEyeCount());
 
 		
 		//		if(firstMonster.getEyeCount() > 3)
@@ -41,5 +41,22 @@ public class MonsterController
 			System.out.println("Fine dont change my name!");
 		}
 		System.out.println(firstMonster);
+		
+		System.out.println("do you want to change my eye count?");
+		String eyeAnswer = keyboardInput.nextLine();
+		
+		if (eyeAnswer.equals("yes"))
+		{
+			System.out.println("how many eyes should i have?");
+			int newEyes = keyboardInput.nextInt();
+			firstMonster.setEyeCount(newEyes);
+			keyboardInput.nextLine();
+		}
+		else
+		{
+			System.out.println("thats okay i dont need anymore!");
+		}
+		System.out.println();
+				
 	}
 }

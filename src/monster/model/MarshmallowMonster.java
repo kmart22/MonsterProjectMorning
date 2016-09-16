@@ -33,7 +33,7 @@ public class MarshmallowMonster
 	
 	public String toString()
 	{
-		String description = "Name is " + this.name + this.getEyeCount();
+		String description = "Name is " + this.name;
 		
 		return description;
 	}
