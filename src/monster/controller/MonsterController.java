@@ -57,6 +57,34 @@ public class MonsterController
 			System.out.println("thats okay i dont need anymore!");
 		}
 		System.out.println("I have this many eyes: " + firstMonster.getEyeCount());
-				
+		
+		loopMonster();
 	}
+	
+	private void loopMonster()
+	{
+		//define a variable for condition/test
+		int numberOfTimes = 0;
+		while(numberOfTimes < 1000)
+		{
+			//code to do
+			System.out.print("first monster words" + firstMonster);
+			
+			//code to change variable for condition
+			numberOfTimes++;
+		}
+	
+	
+	for(int count = 0; count <1000; count++)
+	{
+		System.out.println("first monster words "+ firstMonster);
+	}
+	
+	int numberOfEyes =2;
+	while(numberOfEyes < 10)
+	{
+		System.out.print("i have " + firstMonster.getEyeCount() + " eyes ");
+		numberOfEyes++;
+	}
+}
 }
